@@ -64,12 +64,17 @@ body {
   cursor: pointer;
 }
 
-.rating:hover {
+.rating--active {
+  background-color: #fc7614;
+  color: white;
+}
+
+.rating--inactive:hover {
   background-color: #7c8798;
   color: white;
 }
 
-.container button {
+#submit {
   display: block;
   width: 100%;
   background-color: #fc7614;
@@ -83,7 +88,7 @@ body {
   cursor: pointer;
 }
 
-.container button:hover {
+#submit:hover {
   background-color: white;
   color: #fc7614;
 }
