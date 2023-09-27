@@ -3,3 +3,87 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #131518;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "overpass";
+  font-size: 14px;
+}
+
+.container {
+  background: radial-gradient(#232a34, #181e27);
+  width: 90%;
+  max-width: 468px;
+  padding: 2em 1.5em;
+  border-radius: 0.5rem;
+}
+
+.star {
+  background-color: #262e38;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.container h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0.75em 0;
+  font-weight: 700;
+}
+
+.container p {
+  color: #969fad;
+  line-height: 1.75em;
+}
+
+.rating--container {
+  display: flex;
+  margin: 1.5em 0;
+  justify-content: space-between;
+}
+
+.rating {
+  background-color: #262e38;
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  color: #979797;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.125em;
+  cursor: pointer;
+}
+
+.rating:hover {
+  background-color: #7c8798;
+  color: white;
+}
+
+.container button {
+  display: block;
+  width: 100%;
+  background-color: #fc7614;
+  border: none;
+  color: white;
+  padding: 1em 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  border-radius: 2.5em;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: white;
+  color: #fc7614;
+}
