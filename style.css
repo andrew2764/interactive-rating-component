@@ -17,8 +17,8 @@ body {
 .container {
   background: radial-gradient(#232a34, #181e27);
   width: 90%;
-  max-width: 468px;
-  padding: 2em 1.5em;
+  max-width: 412px;
+  padding: 2em 2.5em;
   border-radius: 0.5rem;
 }
 
@@ -101,4 +101,14 @@ body {
 #submit:hover {
   background-color: white;
   color: #fc7614;
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container h1 {
+    font-size: 1.75rem;
+  }
 }
